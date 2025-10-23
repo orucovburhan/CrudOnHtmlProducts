@@ -11,40 +11,6 @@ const products = [
     ["Logitech G502 HERO Gaming Mouse", 89.99, "Wired mouse with adjustable DPI and RGB lighting", 2022]
   ];
 
-// while(true){
-//     let input = prompt('ADD,DELETE,SORT BY PRICE,SORT BY YEAR,CHANGE PRICE,SHOW')
-//     if(input==='ADD'){
-//         let name=prompt('Enter name')
-//         let price=prompt('Enter price')
-//         let description=prompt('Enter description')
-//         let year=prompt('Enter year')
-//         let newProduct=[name,price,description,year]
-//         products.push(newProduct)
-//     }
-//     else if(input==="DELETE"){
-
-//     }
-//     else if(input==="SORT BY PRICE"){
-        
-//     }
-//     else if(input==="SORT BY YEAR"){
-        
-//     }
-//     else if(input==="CHANGE PRICE"){
-        
-//     }
-
-//     else if(input==="SHOW"){
-//         alert(products)
-//     }
-
-
-// }
-// document.getElementById("submitBtn").addEventListener("click", function() {
-//     const value = document.getElementById("username").value;
-//     console.log("User entered:", value);
-//   });
-
   const content = document.getElementById("content");
 
 document.getElementById("Add").addEventListener("click", function() {
